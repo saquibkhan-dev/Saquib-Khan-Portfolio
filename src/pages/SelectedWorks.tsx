@@ -12,14 +12,23 @@ const projects = [
     links: { live: "#", code: "https://github.com/saquibkhan-dev/Approval-Workflow-System-with-Audit-Logs" },
     image: "/p1.png",
     cta: "View on Github"
-  }, 
- {
+  },
+   {
     id: "002",
+    title: "Personal Portfolio Website",
+    stack: "React / TypeScript / Tailwind CSS / Framer Motion",
+    description: "A performance-focused portfolio with scroll-triggered animations, a live contact form backed by Google Apps Script, and a mobile-first responsive layout.",
+    links: { live: "#", code: "https://github.com/saquibkhan-dev/Saquib-Khan-Portfolio" },
+    image: "/p2.png",
+    cta: "View on Github"
+  },
+  {
+    id: "003",
     title: "Authentication Dashboard",
     stack: "React / Node.js / Express / MySQL / JWT",
     description: "A secure authentication system with bcrypt password hashing, JWT-based session handling, and protected dashboard routes for authorized users only.",
     links: { live: "#", code: "https://github.com/saquibkhan-dev/Dashboard" },
-    image: "/p2.png",
+    image: "/p3.png",
     cta: "View on Github"
   },
 ];
