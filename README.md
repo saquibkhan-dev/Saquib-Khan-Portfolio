@@ -1,47 +1,42 @@
-# MAHESH P PAI — Portfolio
+# Saquib Khan — Portfolio
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mahesh-p-pai-b0987b2a8/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MAHESHPPAI)
-[![Portfolio](https://img.shields.io/badge/Live_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://maheshppai-v1.netlify.app)
-
-A high-performance personal portfolio showcasing full-stack engineering expertise, architectural design, and a focus on transforming complex problems into elegant, automated solutions.
-
+A personal portfolio website built to showcase full-stack projects, frontend engineering skills, and hands-on internship experience — designed with clean structure, smooth motion, and a focus on getting the details right.
 
 ## 🚀 Overview
 
-This portfolio is a modern React-based web application built with a focus on immersive user experience (UX) and cinematic aesthetics. It features advanced scroll animations, interactive components, and a "Deep Dark" modernist design system.
+This portfolio is a React + TypeScript single-page application focused on clarity and performance. It uses subtle scroll-based animations and a minimal, content-first layout to put the projects and skills front and center rather than relying on heavy visual effects.
 
 ### Key Features
-- **Immersive Interactivity**: Splash cursor effects, vector bridge interactions, and fluid animations.
-- **Stack-based Project Display**: A custom-engineered scroll stack for showcasing selected works with CSS-in-JS and GSAP power.
-- **Parallax Storytelling**: Multi-layered parallax reveals and scroll-triggered content transitions.
-- **Responsive Architecture**: Fully optimized for mobile, tablet, and desktop viewports.
-- **Mechanical UX**: Integrated smooth-scrolling using Lenis for a tactile feel.
+
+- **Smooth Section Animations** — Scroll-triggered reveals and staggered entrance transitions built with Framer Motion.
+- **Responsive Layout** — Built mobile-first with Tailwind CSS, tested across phone, tablet, and desktop breakpoints.
+- **Live Contact Form** — Submits directly to a Google Sheet via a Google Apps Script backend, no third-party form service required.
+- **Component-Driven Structure** — Reusable sections (Hero, About, Projects, Contact) built as isolated components for easy maintenance.
+- **Fast Build Pipeline** — Powered by Vite for near-instant dev reloads and optimized production builds.
 
 ---
 
 ## 🛠️ Technology Stack
 
 | Layer | Technologies |
-| :--- | :--- |
+|---|---|
 | **Frontend** | React 18, TypeScript, Vite |
-| **Styling** | Tailwind CSS, shadcn/ui, Radix UI |
-| **Animation** | Framer Motion, GSAP |
-| **Scrolling** | Lenis Scroll, ScrollVelocity |
-| **Validation** | Zod, React Hook Form |
-| **Icons** | Lucide React |
+| **Styling** | Tailwind CSS |
+| **Animation** | Framer Motion |
+| **Form Backend** | Google Apps Script + Google Sheets |
+| **Deployment** | Vercel |
 
 ---
 
 ## 📂 Project Structure
 
-```text
+```
 src/
-├── components/     # Reusable UI components (Navigation, StarBorder, etc.)
-├── pages/          # Layout sections (Hero, About, SelectedWorks, Contact)
-├── lib/            # Utility functions and library wrappers
+├── components/     # Reusable UI building blocks
+├── pages/          # Section layouts (Hero, About, Projects, Contact)
+├── lib/            # Utility functions and helpers
 ├── hooks/          # Custom React hooks
-└── assets/         # Static assets and styles
+└── assets/         # Static assets and images
 ```
 
 ---
@@ -49,30 +44,33 @@ src/
 ## 🛠️ Getting Started
 
 ### Prerequisites
+
 - Node.js (v18 or higher)
-- npm or bun
+- npm
 
 ### Local Development
 
 1. **Clone the repository**
+
    ```bash
-   git clone https://github.com/MAHESHPPAI/portfolio-website.git
-   cd Portfolio-website
+   git clone https://github.com/saquibkhan-dev/Portfolio-Saquib-khan.git
+   cd Portfolio-Saquib-khan
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
-   # or
-   bun install
    ```
 
 3. **Start the development server**
+
    ```bash
    npm run dev
    ```
 
 4. **Build for production**
+
    ```bash
    npm run build
    ```
@@ -81,14 +79,12 @@ src/
 
 ## 📬 Contact
 
-Let's build something intelligent.
+Open to internship and entry-level frontend/full-stack opportunities.
 
-- **Email**: [maheshpailinked@gmail.com](mailto:maheshpailinked@gmail.com)
-- **Instagram**: [_.maheshhhhhh._](https://www.instagram.com/_.maheshhhhhh._/)
-- **Availability**: Currently available for freelance and full-time opportunities.
+- **LinkedIn**: [linkedin.com/in/saquib-khan-dev](https://www.linkedin.com/in/saquib-khan-dev)
+<!-- - **Portfolio**: [saquib-portfolio-ashy.vercel.app](https://saquib-portfolio-ashy.vercel.app) -->
+- **GitHub**: [github.com/saquibkhan-dev](https://github.com/saquibkhan-dev) 
 
 ---
 
-<p align="center">
-  MADE BY MAHESH ® 2026
-</p>
+Built by Saquib Khan © 2026
