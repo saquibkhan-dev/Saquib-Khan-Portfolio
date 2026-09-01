@@ -4,33 +4,38 @@ import StarBorder from "../components/StarBorder";
 import './ScrollStack.css';
 
 const projects = [
+  {
+id: "001",
+title: "SprintDesk — Sprint Management Dashboard",
+stack: "React 19 / TypeScript / Vite / TanStack Query / Zustand / Tailwind CSS",
+description: "A sprint management dashboard for software teams featuring a drag-and-drop Kanban board, secure authentication with silent token refresh, sprint analytics, task management, and simulated real-time notifications.",
+links: {
+live: "https://sprint-desk-livid.vercel.app/",
+code: "https://sprint-desk-livid.vercel.app/",
+},
+image: "/p1.png",
+cta: "Live Project"
+},
+
  {
-    id: "001",
+    id: "002",
     title: "Approval Workflow System with Audit Logs",
     stack: "React (Vite) / Node.js / Express / MySQL",
     description: "A role-based expense approval platform with multi-level manager-finance approvals, immutable audit logging, and CSV export for compliance reporting.",
     links: { live: "#", code: "https://github.com/saquibkhan-dev/Approval-Workflow-System-with-Audit-Logs" },
-    image: "/p1.png",
+    image: "/p2.png",
     cta: "View on Github"
   },
    {
-    id: "002",
+    id: "003",
     title: "Personal Portfolio Website",
     stack: "React / TypeScript / Tailwind CSS / Framer Motion",
     description: "A performance-focused portfolio with scroll-triggered animations, a live contact form backed by Google Apps Script, and a mobile-first responsive layout.",
     links: { live: "#", code: "https://github.com/saquibkhan-dev/Saquib-Khan-Portfolio" },
-    image: "/p2.png",
-    cta: "View on Github"
-  },
-  {
-    id: "003",
-    title: "Authentication Dashboard",
-    stack: "React / Node.js / Express / MySQL / JWT",
-    description: "A secure authentication system with bcrypt password hashing, JWT-based session handling, and protected dashboard routes for authorized users only.",
-    links: { live: "#", code: "https://github.com/saquibkhan-dev/Dashboard" },
     image: "/p3.png",
     cta: "View on Github"
   },
+  
 ];
 
 interface ScrollStackCardProps {

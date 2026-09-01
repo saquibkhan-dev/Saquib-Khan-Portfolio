@@ -53,7 +53,7 @@ const Footer = () => {
             Saquib Khan
           </p>
           <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide leading-relaxed text-white/60">
-            Frontend Engineer
+            Full Stack Engineer
           </p>
           <p className="font-sans text-xs md:text-sm font-medium uppercase tracking-wide leading-relaxed text-white/60">
             © 2026 All Rights Reserved
